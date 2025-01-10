@@ -1,4 +1,4 @@
-name: Node.js Application Workflow on self hosted runner.
+name: Node.js Application Workflow on self hosted runner- mac
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: linux-runner
+    runs-on: mac-runner
     
     steps:
     - name: Checkout code
