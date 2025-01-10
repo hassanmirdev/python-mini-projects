@@ -1,4 +1,4 @@
-name: Node.js Application Workflow on self hosted runner
+name: Node.js Application Workflow on self hosted runner.
 
 on:
   push:
