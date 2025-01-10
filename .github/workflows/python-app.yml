@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   build_hello_world:
-   runs-on: self-hosted-runner
+   runs-on: linux-runner
    steps:
      - run: echo "Hello World - self hosted runner tested successfully"
     
